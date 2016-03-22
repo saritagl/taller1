@@ -1,0 +1,455 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500);
+
+/****Header****/
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	background: url("fondo-titulo.png")  no-repeat fixed center center;
+	background-position: center bottom;
+	font-size: 19px;
+}
+
+h1{
+	color: white;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	text-shadow: 1px 3px 4px black;
+	font-size: 300%;
+}
+
+/********Menu Horizontal********/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: auto;
+    height: 35px;
+    list-style-position: outside;
+    background-color: #DF0101;
+}
+
+li {
+    float: left;
+    font-size: 19px;
+    text-align: justify;
+    margin: 2px 15px 2px 2px;
+}
+
+#activo{
+    background-color: white;
+    height: 30px;
+}
+
+#contacto{
+	 float:right;
+}
+
+#menu a{
+	color:black;
+	font-family: 'Cabin', sans-serif;
+	font-size: 125%;
+	text-shadow: 0px 2px 2px #CCCCCC;
+}
+
+/********Contenido********/
+body{
+	background: url("fondo-pagina.jpg") no-repeat fixed center center #333;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+p{ 
+	color: black;
+	font-family: 'Cabin', sans-serif;
+	font-size: 120%;
+	margin: 10px 0px 0px 10px;
+	text-align: justify;
+	width: 600px;
+}
+
+b{
+	text-align: center;
+}
+
+
+h2{
+	color: #FF0000;
+	text-shadow: 0px 2px 3px black;	
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	font-size: 250%;
+}
+
+h3{
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	text-shadow: 0px 2px 3px black;
+	font-size: 150%;
+	margin-top:10px;
+}
+
+em{
+	color: black;
+	font-family: 'Cabin', sans-serif;
+	font-size: 70%;
+}
+
+#contenedor{
+	width:95%;
+	margin:0 auto;
+	
+}
+
+#contenido{
+	display:table;
+	margin-top: 50px;
+	margin:0 auto;
+	
+}
+
+#contenidoTexto{
+	display: table-cell;
+	width: 100%;
+	float: left;
+}
+
+#contenidoTexto a{
+	display: inline-block;
+}
+
+#enlace{
+	background-color: rgba(10, 225, 53, .9);
+	border-radius: 15px; 
+	width:50%;
+	float:right;
+	margin-top:10px;
+	text-align: center;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	font-family: 'Cabin', sans-serif;
+}
+
+
+/***********************/
+
+/********Imagen********/
+
+figure{
+	float:right;
+	margin: 20px 100px 20px 0px;	
+}
+
+figcaption{
+	text-align: center;
+}
+
+img {
+	width:325px;
+	height:450px;
+	float:left;
+	margin-left:10%;
+	border:3px solid black;
+	border-radius: 10px
+}
+
+/**********************/
+
+/********Tabla*********/
+
+table {
+	border:2px solid white;
+	border-collapse:separate;
+	border-spacing:5px;
+	width:450px;
+	height:20px;
+	color: #FFFFFF;
+	font-family: 'Cabin', sans-serif;
+	background: rgba(76, 187, 23, .5);
+	clear: right;
+	margin: 0 auto;
+}
+
+tr{
+	/*background-color:#FFFFFF;*/
+	border-color: #FFFFFF;
+}
+
+td{
+	border:1px solid white;
+	padding:10px;
+	width: 70px;
+	font-size: 100%;
+}
+
+#titulo_tabla_prin{
+	text-align: center;
+	color: black;
+	font-size: 125%;
+}
+
+#titulo_tabla{
+	text-align: center;
+	background: rgba(3, 3, 3, .5);
+	font-size: 120%;
+	text-shadow: 0px 2px 2px #999999;
+}
+
+#info_tabla{
+	text-align: center;
+	color: black;
+}
+/******************/
+
+
+/*****Sidebar*****/
+aside {
+	display: table-cell;
+	font-family: 'Cabin', sans-serif;
+	/*font-family: Microsoft YaHei UI;*/
+	margin-top:50px;
+	margin-left:10px;
+	margin-right:10px;
+	width: 230px;
+	height: 200px;
+	background: rgba(10, 225, 53, .9);
+	border-radius: 15px;  
+	/*-color: #04B431;
+	filter: alpha(opacity=50);*/
+	float: right;
+}
+
+blockquote{
+	margin-top:10px;
+	margin-left: 10px;
+	text-align: center;
+}
+a:link    {color: blue; background-color:transparent; text-decoration:none}
+a:visited {color:purple; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:white; text-decoration:none;display: block;}
+
+/*****************/
+
+/*****Footer*****/
+footer{
+	background-color: #1E772E;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:50px;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	border-radius: 15px; 
+}
+
+#foot p{
+	color: white;
+}
+
+/*****************/
+
+
+/*****Media Queries*****/
+/*1400*/
+@media screen and (max-width: 1400px){
+	
+	p{margin: 10px 0px 0px 10px;width: 800px;}
+	h2{font-size: 250%;}
+	h3{	font-size: 170%;margin-top:10px;}
+	#sidebar h3{font-size: 170%;}
+	#sidebar a{font-size: 120%;}
+	em{	font-size: 80%;}
+	#contenedor{width:95%;}
+	#contenido{width:65%; margin-top: 50px;}
+	aside{width:auto; margin:60px 0px 0px 0px;}
+	#contenidoTexto{width: 100%;float: left;}
+	
+	#enlace{width:50%;float:right;margin-top:10px;text-align: center;margin:0px 10px 10px 10px;}
+	figure{float:right;margin: 20px 40px 20px 0px;}
+	figcaption{text-align: center;}
+	img {width:445px;height:570px;float:left;margin-left:10%;}
+	
+	
+	table {width:450px; height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 100%;}
+	#titulo_tabla_prin{font-size: 125%; margin-top:20px;}
+	#titulo_tabla{font-size: 120%;}
+}
+
+/*1110*/
+@media screen and (max-width: 1110px){
+	
+	p{margin: 10px 0px 0px 10px;width: 600px;}
+	h2{font-size: 250%;}
+	h3{	font-size: 160%;margin-top:10px;}
+	
+	table {width:450px; height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 100%;}
+	#titulo_tabla_prin{font-size: 125%; margin-top:20px;}
+	#titulo_tabla{font-size: 120%;}
+}
+
+/*980*/
+@media screen and (max-width: 980px){
+	
+	p{margin: 10px 0px 0px 10px;width: 500px;}
+	h2{font-size: 200%;}
+	h3{	font-size: 150%;margin-top:10px;}
+	em{	font-size: 70%;}
+	#contenedor{width:95%;}
+	#contenido{width:65%; margin-top: 50px;}
+	aside{width:30%;margin: 60px 0px 0px 0px;}
+	#contenidoTexto{width: 100%;float: left;}
+	
+	#enlace{width:50%;float:right;margin-top:10px;text-align: center;margin:0px 10px 10px 10px;}
+	figure{float:right;margin: 20px 40px 20px 0px;}
+	figcaption{text-align: center;}
+	img {width:325px;height:450px;float:left;margin-left:10%;}
+	
+	
+	table {width:450px;height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 100%;}
+	#titulo_tabla_prin{font-size: 125%;}
+	#titulo_tabla{font-size: 120%;}
+}
+
+/*920*/
+@media screen and (max-width: 920px){
+
+	p{margin: 10px 0px 0px 10px;width: 500px;}
+	h2{font-size: 200%;}
+	h3{	font-size: 125%;margin-top:10px;}
+	em{	font-size: 70%;}
+	#contenedor{width:95%;}
+	#contenido{width:65%; margin-top: 50px;}
+	aside{width:30%;margin: 60px 0px 0px 0px;}
+	#contenidoTexto{width: 100%;float: left;}
+	#enlace{width:50%;float:right;margin-top:10px;text-align: center;margin:0px 10px 10px 10px;}
+	figure{float:right;margin: 20px 40px 20px 0px;}
+	figcaption{text-align: center;}
+	img {width:325px;height:450px;float:left;margin-left:10%;}
+	
+	
+	table {width:450px;height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 100%;}
+	#titulo_tabla_prin{font-size: 125%;}
+	#titulo_tabla{font-size: 120%;}
+}
+/*860*/
+@media screen and (max-width: 860px){
+
+	p{margin: 10px 0px 0px 0px;width:450px;font-size: 100%;}
+	a{font-size: 100%;}
+	h2{font-size: 170%;}
+	h3{	font-size: 110%;margin-top:10px;}
+	em{	font-size: 50%;}
+	li {font-size: 16px;}
+	#contenedor{width:95%;}
+	#contenido{width:65%; margin-top: 50px;}
+	aside{width:25%;margin: 60px 0px 0px 0px;}
+	#contenidoTexto{width: 100%;float: left;}
+	#enlace{width:50%;float:right;margin-top:10px;text-align: center;margin:0px 10px 10px 10px;}
+	figure{float:right;margin: 20px 20px 20px 0px;}
+	figcaption{text-align: center;}
+	img {width:300px;height:425px;float:left;margin-left:10%;}
+		
+	table {width:450px;height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 100%;}
+	#titulo_tabla_prin{font-size: 110%;margin-top:20px;}
+	#titulo_tabla{font-size: 105%;}
+}
+/*700*/
+@media screen and (max-width: 700px){
+	
+	p{margin: 10px 0px 0px 0px;width:400px;font-size: 85%;}
+	a{font-size: 85%;}
+	h2{font-size: 150%;}
+	h3{	font-size: 90%;margin-top:10px;}
+	#sidebar{width: auto;}
+	#sidebar h3{font-size: 80%;}
+	#sidebar a{font-size: 60%;}
+	em{	font-size: 30%;}
+	li {font-size: 14px;}
+	#contenedor{width:100%;}
+	#contenido{width:auto; margin-top: 50px;}
+	/*aside{margin: 60px 0px 0px 0px;}	*/
+	#enlace{width:40%;font-size:8px;margin-top:10px;text-align: center;margin:0px 10px 10px 10px;}
+	figure{margin: 20px 5px 20px 0px;}
+	figcaption{text-align: center;}
+	img {width:210px;height:330px;margin-left:5%;}
+		
+		
+		
+	table {width:450px;height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 85%;}
+	#titulo_tabla_prin{font-size: 85%;margin-top:20px;}
+	#titulo_tabla{font-size: 85%;}
+}
+/*600*/
+@media screen and (max-width: 600px){
+	p{margin: 10px 0px 0px 0px;width:auto;font-size: 70%;}
+	a{font-size: 70%;}
+	h2{font-size: 120%;}
+	h3{	font-size: 70%;margin-top:10px;}
+	em{	font-size: 20%;}
+	li {font-size: 14px;}
+	#contenedor{width:auto;}
+	#contenido{width:50%; margin-top: 50px;}
+	aside{width:25%; margin: 60px 0px 0px 0px;}	
+	#enlace{width:40%;font-size:8px;margin-top:10px;text-align: center;margin:0px 10px 10px 10px;}
+	figure{float:right;margin: 20px 20px 20px 0px;}
+	figcaption{text-align: center;}
+	img {width:200px;height:300px;margin-left:5%;}
+		
+		
+	table {width:450px;height:20px;clear: right;margin: 0 auto;}
+	td{font-size: 70%;}
+	#titulo_tabla_prin{font-size: 80%;margin-top:20px;}
+	#titulo_tabla{font-size: 70%;}
+}
+/*570*/
+@media screen and (max-width: 570px){
+	#sidebar{width: 100%;}
+	h1{font-size: 150%}
+	h2{font-size: 150%;text-align: center;width: 100%}
+	h3{font-size: 90%;}
+	#sidebar h3{font-size: 100%;}
+	#sidebar a{font-size: 90%;}
+	em{font-size: 35%}
+	#menu a{font-size: 60%}
+	p{font-size: 90%;width: 400px;}	
+	a{font-size: 90%;}
+	table{display: none;}
+	figure{float: left;}
+	article p{float: left;}
+	li{font-size:150%;}
+
+}
+/*480*/
+@media screen and (max-width: 480px){
+	#sidebar{width: 100%;}
+	h1{font-size: 130%}
+	h2{font-size: 100%;text-align: center;width: 100%}
+	h3{font-size: 70%}
+	#sidebar h3{font-size: 90%;}
+	#sidebar a{font-size: 70%;}
+	em{font-size: 35%}
+	#menu a{font-size: 40%}
+	p{font-size: 70%;width: 95%}	
+	a{font-size: 70%}
+	table{display: none;}
+	figure{float: left;}
+	article p{float: left;}
+}
+
+/*Todos los queries agregados se insertaron, para que la página en cualquier
+ * tamaño, tenga diseño responsivo y se adapte adecuadamente al navegador*/
+/********888888*************************/
